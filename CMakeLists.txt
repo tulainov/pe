@@ -8,4 +8,8 @@ add_executable(circle main.c
         circle/circle.h
         pe.h
         pixel/pixel.h
-        pixel/pixel.c)
+        pixel/pixel.c
+        lines/lines.h
+        lines/lines.c
+        calculatePoints/points.h
+        calculatePoints/points.c)

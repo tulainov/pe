@@ -11,4 +11,3 @@ void setPixel(int x, int y, char color, char array[SIZE][SIZE]) {
     }
 }
 
-
