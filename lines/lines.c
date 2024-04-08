@@ -1,4 +1,5 @@
-
+#include <stdlib.h>
+#include "lines.h"
 
 void drawLine(int x1, int y1, int x2, int y2, char color, char array[SIZE][SIZE]) {
     int dx = abs(x2 - x1);
