@@ -4,13 +4,16 @@ project(circle C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(circle main.c
-        circle/circle.c
-        circle/circle.h
-        pe.h
-        pixel/pixel.h
+        drawCircle/drawCircle.h
+        drawCircle/drawCircle.c
         pixel/pixel.c
-        lines/lines.h
-        lines/lines.c
-        calculatePoints/points.h
-        calculatePoints/points.c
+        pixel/pixel.h
+        main.c
+        pe.h
+        drawLine/drawLine.h
+        drawLine/drawLine.c
+        drawLine/calculatePoints.c
+        drawTriangle/drawTriangle.h
+        drawTriangle/drawTriangle.c
+
 )
