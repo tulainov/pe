@@ -1,8 +1,6 @@
 #define X_AXIS 200
 #define Y_AXIS 200
 
-char pixels [Y_AXIS][X_AXIS];
-
 
 void setPixel(int x, int y, char color, char array[Y_AXIS][X_AXIS]) {
 //    Check if the coordinates are within the bounds of the array
